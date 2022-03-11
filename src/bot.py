@@ -40,7 +40,4 @@ def parse(message_field):
     
     return api_call.get_api(game, attribute, message_field[3])
     
-
-    
-
 client.run(TOKEN)

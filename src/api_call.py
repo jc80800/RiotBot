@@ -17,7 +17,7 @@ def get_api(game, attribute, value):
 
 def get_lol_content(attribute, value):
     if attribute == "!summoner":
-        return lol_calls.get_summoner_info(lol_watcher, NA_REGION, value, data_dragon_version)
+        return lol_calls.get_summoner_info(lol_watcher, NA_REGION, value)
 
 
 

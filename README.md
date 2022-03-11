@@ -9,6 +9,4 @@ All discord commands will with start with `!riot` to indicate RiotBot
 
   - !lol - League of Legend
     - !summoner {summoner_name}
-    - !ranked {summoner_name}
-    - !champion_mastery {summoner_name}
   - Other games will be added in future
