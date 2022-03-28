@@ -10,6 +10,8 @@ All discord commands will with start with `!riot` to indicate RiotBot
   - !lol - League of Legend
     - !summoner {summoner_name}
     - !champion {champion}
+
+    Champion Title Guessing Game:
     - !start 
     - !guess {champion}
   - Other games will be added in future
