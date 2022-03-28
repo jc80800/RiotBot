@@ -32,13 +32,13 @@ def get_lol_content(attribute, message_field):
     
     elif attribute == "!champion":
         value = message_field[3]
-        return lol_calls.get_champion_info(lol_watcher, value)
+        return lol_calls.get_champion_info(lol_watcher, value, NA_REGION)
     
     elif attribute == "!start":
         return lol_calls.start_guess_game(lol_watcher, NA_REGION)
     
     elif attribute == "!guess":
-        return lol_calls.guess_champ(message_field[3])
+        return lol_calls.guess_champ(lol_watcher, NA_REGION, message_field[3])
 
 
 

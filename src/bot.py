@@ -43,6 +43,8 @@ async def on_message(message):
 Parses User messages and calls function accordingly
 """
 def parse(message_field):
+    if len(message_field) < 3:
+        return f"Invalid Command, Check out Help!"
     game = message_field[1]
     if game not in ["!lol"]:
         return f"Incorrect command, {game} is not a proper notation"
